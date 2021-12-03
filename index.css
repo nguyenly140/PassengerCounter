@@ -1,6 +1,15 @@
-body {
+html {
+
+
+}
+
+html, body {
+    min-height: 300px;
+    width: 250px;
+    overflow: hidden;
     background-image: url("station.jpeg");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     'Open Sans', 'Halvetica Neue', sans-serif;
     font-weight: bold;
@@ -33,3 +42,6 @@ button {
     background: darkred;
 }
 
+#save-btn {
+    background: green;
+}
